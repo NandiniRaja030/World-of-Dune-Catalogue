@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: black;
+}
+.themeChange {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 0, 0, 0.966); 
+    color: rgb(255, 255, 255); 
+}
+h1 {
+    font-size: 60px;
+    font-weight: 500;
+    text-align: center;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+h3 {
+    font-weight: 500;
+    text-align: center;
+}
+h4 {
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+h5 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+h6 {
+    font-size: 14px;
+    font-weight: 500;
+    margin: 5px 5px 5px 0;
+}
+p {
+    margin-top: 8px;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 500px; 
+    position: sticky;
+    top: 0;
+    background-color: inherit;
+    z-index: 100;
+}
+#logo {
+    margin-left: 30px;
+    padding: 10px;
+}
+#navtext {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    margin-right: 20px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+li {
+    padding-right: 25px;
+}
+.navli {
+    float: right;
+        }
+.footerli {
+    margin-bottom: 5px;
+}
+li a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+#thButton {
+    border: none;
+    background: none;
+}
+#hero {
+    width: 100%;
+    height: auto;
+    background-image: url(https://sm.ign.com/ign_in/news/d/dune-part-/dune-part-2-director-teases-potential-third-movie_s699.jpg);
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 500px; 
+    min-height: 800px;
+}
+#herotint {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+#herotext {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+#explore {
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 600;
+    border-width: 0;
+}
+#explore:hover {
+    background-color: rgb(255, 168, 36);
+    transform: scale(1.2);
+    transition-duration: 0.4s; 
+    box-shadow: 5px 5px;      
+}
+#catalogue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 500px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#catlist {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px;
+}
+.card {
+    width: 250px;
+    border-radius: 30px;
+    background-color: rgb(255, 168, 36);
+    box-shadow: 10px 10px 5px #00000023;
+}
+.card img {
+    border-radius: inherit;
+    box-shadow: 0px 10px 5px #00000023;
+
+}
+.cardtext {
+    padding: 20px;
+}
+.downloadB {
+    margin: 15px 0 5px 0;
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border-width: 0;
+    background-color: black;
+    color: white;
+    box-shadow: 2px 2px 2px #00000023;
+}
+.adown {
+    color: white;
+}
+#footer {
+    background-color: rgb(255, 168, 36);
+    min-width: 500px; 
+    text-align: center;
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+}

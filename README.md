@@ -21,5 +21,3 @@ Key Points:
 * Responsive
 * Theme Change
 * Books Download (Epub)
-
-
