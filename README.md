@@ -16,4 +16,10 @@ My Flow:
     * Sub Heading2 and Cards (image, name, author) 
  * Footer (copywright and links)
 
+Key Points:
+* Cards
+* Responsive
+* Theme Change
+* Books Download (Epub)
+
 
