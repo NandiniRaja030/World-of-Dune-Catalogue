@@ -1,3 +1,4 @@
+/*Overall*/
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -46,6 +47,22 @@ a {
     text-decoration: none;
     color: black;
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+li {
+    padding-right: 25px;
+}
+li a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/*Navbar*/
 #nav {
     display: flex;
     align-items: center;
@@ -67,29 +84,16 @@ a {
     padding: 10px;
     margin-right: 20px;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-}
-li {
-    padding-right: 25px;
-}
 .navli {
     float: right;
         }
-.footerli {
-    margin-bottom: 5px;
-}
-li a {
-    display: block;
-    text-decoration: none;
-    color: inherit;
-}
 #thButton {
     border: none;
     background: none;
 }
+
+
+/*Hero Section*/
 #hero {
     width: 100%;
     height: auto;
@@ -131,6 +135,9 @@ li a {
     transition-duration: 0.4s; 
     box-shadow: 5px 5px;      
 }
+
+
+/*Catalogue Section*/
 #catalogue {
     display: flex;
     justify-content: center;
@@ -178,9 +185,15 @@ li a {
     color: white;
     box-shadow: 2px 2px 2px #00000023;
 }
+.downloadB:hover {
+    transform: scale(1.1);
+    transition-duration: 0.4s; 
+}
 .adown {
     color: white;
 }
+
+/*Footer Section*/
 #footer {
     background-color: rgb(255, 168, 36);
     min-width: 500px; 
@@ -188,4 +201,7 @@ li a {
     padding: 20px 0 20px 0;
     display: flex;
     flex-direction: column;
+}
+.footerli {
+    margin-bottom: 5px;
 }
